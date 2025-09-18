@@ -11,3 +11,13 @@ management:
     health:
       probes:
         enabled: true
+
+springdoc:
+  # opcional: deixa o Swagger em /swagger
+  swagger-ui:
+    path: /swagger
+
+# qualidade de vida (remove warning)
+spring:
+  jpa:
+    open-in-view: false
